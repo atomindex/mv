@@ -329,16 +329,12 @@ namespace mv {
         //Событие завершения редактирования ячейки
         private void tblPoints_CellEndEdit(object sender, DataGridViewCellEventArgs e) {
             DataGridViewCell cell = tblPoints.Rows[e.RowIndex].Cells[e.ColumnIndex];
-            if (cell.Value == null) {
-                return;
+            if (cell.Value != null) {
+                string value = cell.Value.ToString();
+                if (value.Length != 0) {
+                    cell.Value = double.Parse(value);
+                }
             }
-
-            string value = cell.Value.ToString();
-            if (value.Length == 0) {
-                return;
-            }
-
-            cell.Value = double.Parse(value);
 
             updateCellErrors();
             updateSplines();
