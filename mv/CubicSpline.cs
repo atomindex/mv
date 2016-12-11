@@ -91,7 +91,7 @@ namespace mv {
             return s.a + s.b * dx + s.c / 2 * Math.Pow(dx, 2) + s.d / 6 * Math.Pow(dx, 3);
         }
 
-        //Возвращает миссив координат
+        //Возвращает массив координат
         public double[][] GetPoints(int pointsPerUnit) {
             double start = xOriginal[0];
             double end = xOriginal[xOriginal.Length - 1];
