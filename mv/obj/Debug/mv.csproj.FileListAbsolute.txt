@@ -1,0 +1,9 @@
+c:\users\atom\documents\visual studio 2015\Projects\mv\mv\bin\Debug\mv.exe.config
+c:\users\atom\documents\visual studio 2015\Projects\mv\mv\bin\Debug\mv.exe
+c:\users\atom\documents\visual studio 2015\Projects\mv\mv\bin\Debug\mv.pdb
+c:\users\atom\documents\visual studio 2015\Projects\mv\mv\obj\Debug\mv.csprojResolveAssemblyReference.cache
+c:\users\atom\documents\visual studio 2015\Projects\mv\mv\obj\Debug\mv.Properties.Resources.resources
+c:\users\atom\documents\visual studio 2015\Projects\mv\mv\obj\Debug\mv.csproj.GenerateResource.Cache
+c:\users\atom\documents\visual studio 2015\Projects\mv\mv\obj\Debug\mv.exe
+c:\users\atom\documents\visual studio 2015\Projects\mv\mv\obj\Debug\mv.pdb
+c:\users\atom\documents\visual studio 2015\Projects\mv\mv\obj\Debug\mv.MainForm.resources
